@@ -1,0 +1,5 @@
+# Données : fichiers > 50 Mo, à télécharger depuis le dépôt PEGSGraph (voir README)
+data/
+__pycache__/
+.ipynb_checkpoints/
+data_processed/

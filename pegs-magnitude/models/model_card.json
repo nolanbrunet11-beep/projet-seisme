@@ -1,0 +1,42 @@
+{
+  "ridge_alpha": 0.31622776601683794,
+  "xgb_params": {
+    "n_estimators": 899,
+    "learning_rate": 0.05757579891082564,
+    "max_depth": 3,
+    "min_child_weight": 1.1720087201588036,
+    "subsample": 0.7824279936868144,
+    "colsample_bytree": 0.11153121252070788,
+    "reg_lambda": 1.6212311563941981
+  },
+  "cv": {
+    "Dummy (moyenne)": {
+      "MAE val (moy)": 0.6207,
+      "MAE val (é.-t.)": 0.0067,
+      "RMSE val (moy)": 0.7146,
+      "R2 val (moy)": -0.0009,
+      "MAE train": 0.6213
+    },
+    "Ridge α=0.32 — A": {
+      "MAE val (moy)": 0.3624,
+      "MAE val (é.-t.)": 0.0126,
+      "RMSE val (moy)": 0.4618,
+      "R2 val (moy)": 0.5815,
+      "MAE train": 0.3544
+    },
+    "XGBoost défaut — A+B": {
+      "MAE val (moy)": 0.2824,
+      "MAE val (é.-t.)": 0.0088,
+      "RMSE val (moy)": 0.3643,
+      "R2 val (moy)": 0.7396,
+      "MAE train": 0.1319
+    },
+    "XGBoost optimisé — A+B": {
+      "MAE val (moy)": 0.2808,
+      "MAE val (é.-t.)": 0.0087,
+      "RMSE val (moy)": 0.3624,
+      "R2 val (moy)": 0.7422,
+      "MAE train": 0.1392
+    }
+  }
+}
